@@ -61,16 +61,15 @@ int i,n;
     b[i].read();
     }
     Scanner st= new Scanner(System.in);
-     System.out.println("Enter the category of the book :");
-
+     System.out.println("Search the category of the book :");
      String ct=st.nextLine();
      boolean flag=false;
     for ( i=0; i<n; i++)
     {
       if(ct.equals(b[i].category))
        {
- System.out.println("\n");
-             System.out.println(ct+" Category book  details:");
+
+             System.out.println(" Category book  details:");
              b[i].show(); 
              flag=true;
        }
