@@ -27,7 +27,7 @@ class SalesMan
   }
  void display()
  {
- System.out.println("\n");
+ System.out.println("\t");
    System.out.println("Name of the salesman:"+ name);
    System.out.println("Sales Amount:"+amount);
    System.out.println("Commission:"+commission);
